@@ -1,52 +1,52 @@
-[gd_scene format=3 uid="uid://4pqund3nukl7"]
+[gd_scene format=3 uid="uid://bnxtikkajcqlb"]
 
-[ext_resource type="Script" uid="uid://b5a3w0x8ofl4c" path="res://title.gd" id="1_epypp"]
-[ext_resource type="Texture2D" uid="uid://bgi6c24jj7kuq" path="res://addons/57f3afd3db10395e4483cf5f0ff19dd9.jpg" id="1_wtcfe"]
-[ext_resource type="FontFile" uid="uid://b15k0ji0exa1p" path="res://ghastly_panic/Ghastly Panic.ttf" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://b5a3w0x8ofl4c" path="res://title.gd" id="1_kpexm"]
+[ext_resource type="Texture2D" uid="uid://bgi6c24jj7kuq" path="res://addons/57f3afd3db10395e4483cf5f0ff19dd9.jpg" id="2_3xoar"]
+[ext_resource type="FontFile" uid="uid://b15k0ji0exa1p" path="res://ghastly_panic/Ghastly Panic.ttf" id="3_mom7w"]
 
 [node name="Node2D" type="Node2D" unique_id=106206733]
-script = ExtResource("1_epypp")
+script = ExtResource("1_kpexm")
 
 [node name="bg" type="TextureRect" parent="." unique_id=333385878]
 offset_left = 3.0
 offset_right = 1160.0
 offset_bottom = 736.0
-texture = ExtResource("1_wtcfe")
+texture = ExtResource("2_3xoar")
 
 [node name="title" type="RichTextLabel" parent="." unique_id=930244882]
-offset_left = 307.0
-offset_top = 65.0
-offset_right = 805.0
-offset_bottom = 382.0
+offset_left = 310.0
+offset_top = 19.0
+offset_right = 808.0
+offset_bottom = 336.0
 theme_override_colors/default_color = Color(0.1882353, 0.1882353, 0.1882353, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 10
-theme_override_fonts/normal_font = ExtResource("2_0e48y")
+theme_override_fonts/normal_font = ExtResource("3_mom7w")
 theme_override_font_sizes/normal_font_size = 300
 text = "EYERIS"
 horizontal_alignment = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=328970556]
-offset_left = 460.0
-offset_top = 388.0
-offset_right = 728.0
-offset_bottom = 561.0
+offset_left = 446.0
+offset_top = 326.0
+offset_right = 714.0
+offset_bottom = 499.0
 
 [node name="start" type="Button" parent="VBoxContainer" unique_id=1519727364]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_0e48y")
+theme_override_fonts/font = ExtResource("3_mom7w")
 theme_override_font_sizes/font_size = 50
 text = "START"
 
 [node name="settings" type="Button" parent="VBoxContainer" unique_id=1026649711]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_0e48y")
+theme_override_fonts/font = ExtResource("3_mom7w")
 theme_override_font_sizes/font_size = 50
 text = "settings"
 
 [node name="charecters" type="Button" parent="VBoxContainer" unique_id=2060851600]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_0e48y")
+theme_override_fonts/font = ExtResource("3_mom7w")
 theme_override_font_sizes/font_size = 50
 text = "charecters"
 
