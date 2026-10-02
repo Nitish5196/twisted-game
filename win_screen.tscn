@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dvk34gm7c0var"]
+
+[ext_resource type="Script" uid="uid://lwxi8nqp78wa" path="res://win_screen.gd" id="1_l2arl"]
+
+[node name="Node2D" type="Node2D" unique_id=1394855176]
+script = ExtResource("1_l2arl")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1425013058]
+offset_left = -23.0
+offset_top = -11.0
+offset_right = 1199.0
+offset_bottom = 1189.0
+scale = Vector2(1.0327374, 0.6)
+
+[node name="Label" type="Label" parent="." unique_id=511584961]
+offset_left = 352.0
+offset_top = 177.0
+offset_right = 931.0
+offset_bottom = 509.0
+theme_override_font_sizes/font_size = 30
+text = "Co"
+
+[node name="PlayButton" type="Button" parent="." unique_id=1429185905]
+offset_left = 496.0
+offset_top = 304.0
+offset_right = 653.0
+offset_bottom = 354.0
+theme_override_font_sizes/font_size = 30
+text = "Play Again"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
